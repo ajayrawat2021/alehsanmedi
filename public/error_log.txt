@@ -1,0 +1,14 @@
+[18-May-2023 07:43:04 UTC] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/u337861565/domains/alehsanmedia.com/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /home/u337861565/domains/alehsanmedia.com/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(877): ReflectionClass->__construct('view')
+#1 /home/u337861565/domains/alehsanmedia.com/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(758): Illuminate\Container\Container->build('view')
+#2 /home/u337861565/domains/alehsanmedia.com/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(851): Illuminate\Container\Container->resolve('view', Array, true)
+#3 /home/u337861565/domains/alehsanmedia.com/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(694): Illuminate\Foundation\Application->resolve('view', Array)
+#4 /home/u337861565/domains/alehsanmedia.com/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Applicati in /home/u337861565/domains/alehsanmedia.com/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 879
+[18-May-2023 07:43:08 UTC] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/u337861565/domains/alehsanmedia.com/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /home/u337861565/domains/alehsanmedia.com/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(877): ReflectionClass->__construct('view')
+#1 /home/u337861565/domains/alehsanmedia.com/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(758): Illuminate\Container\Container->build('view')
+#2 /home/u337861565/domains/alehsanmedia.com/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(851): Illuminate\Container\Container->resolve('view', Array, true)
+#3 /home/u337861565/domains/alehsanmedia.com/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(694): Illuminate\Foundation\Application->resolve('view', Array)
+#4 /home/u337861565/domains/alehsanmedia.com/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Applicati in /home/u337861565/domains/alehsanmedia.com/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 879
